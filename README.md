@@ -202,7 +202,7 @@ Contoh output:
 
 ---
 
-B. Login Berhasil
+## B. Login Berhasil
 
 Pengguna memasukkan username dan password yang benar.
 
@@ -216,7 +216,7 @@ Setelah login berhasil, pengguna diarahkan ke menu sesuai role.
 
 ---
 
-C. Login Salah dan Countdown
+## C. Login Salah dan Countdown
 
 Jika username atau password salah, program menampilkan jumlah percobaan yang salah.
 
@@ -230,7 +230,7 @@ Contoh:
 
 ---
 
-D. Menu Admin
+## D. Menu Admin
 
 Admin memiliki akses penuh terhadap data game.
 
@@ -242,7 +242,7 @@ Contoh output:
 
 ---
 
-E. Menambahkan Data Game
+## E. Menambahkan Data Game
 
 Admin dapat memasukkan data game baru.
 
@@ -254,7 +254,7 @@ Contoh:
 
 ---
 
-F. Menampilkan Data Game
+## F. Menampilkan Data Game
 
 Setelah data berhasil ditambahkan, data dapat ditampilkan melalui menu Tampilkan Data Game.
 
@@ -266,7 +266,7 @@ Contoh:
 
 ---
 
-G. Mengubah Data Game
+## G. Mengubah Data Game
 
 Admin dapat memilih data berdasarkan nomor data yang tersedia.
 
@@ -282,7 +282,7 @@ Jika nomor yang dimasukkan bukan angka, program akan menampilkan pesan kesalahan
 
 ---
 
-H. Menghapus Data Game
+## H. Menghapus Data Game
 
 Admin dapat memilih data yang ingin dihapus.
 
@@ -296,7 +296,7 @@ Contoh:
 
 ---
 
-I. Mencari Data Game
+## I. Mencari Data Game
 
 Admin dan User dapat mencari game berdasarkan nama atau kata kunci.
 
@@ -312,7 +312,7 @@ Game tidak ditemukan.
 
 ---
 
-J. Menu User
+## J. Menu User
 
 User memiliki hak akses yang berbeda dengan Admin.
 
@@ -326,11 +326,11 @@ User tidak memiliki akses untuk menambah, mengubah, atau menghapus data game.
 
 ---
 
-4. Nilai Tambah
+# 4. Nilai Tambah
 
 Program ini menerapkan beberapa nilai tambah sesuai dengan ketentuan Mini Project 2.
 
-A. Error Handling
+## A. Error Handling
 
 Program menggunakan try-except untuk menangani kesalahan input angka pada proses pemilihan data.
 
@@ -348,11 +348,11 @@ Error handling juga diterapkan pada proses penghapusan data.
 
 ---
 
-B. Penggunaan 3 Library Python
+## B. Penggunaan 3 Library Python
 
 Program menggunakan 3 library/module Python sesuai dengan kebutuhan program.
 
-1. os
+### 1. os
 
 Digunakan untuk membersihkan tampilan layar pada program.
 
@@ -370,7 +370,7 @@ Dan dipanggil dengan:
 <img width="230" height="32" alt="Screenshot 2026-10-06 184740" src="https://github.com/user-attachments/assets/229ae749-720b-423a-b384-623d35100517" />
 
 
-2. time
+### 2. time
 
 Digunakan untuk memberikan jeda pada program dan menjalankan countdown ketika pengguna melakukan kesalahan login sebanyak 3 kali.
 
@@ -383,7 +383,7 @@ Contoh penggunaannya:
 <img width="275" height="55" alt="Screenshot 2026-10-06 185036" src="https://github.com/user-attachments/assets/1f1d9b9e-f84c-4c97-aef7-b5455fc28f84" />
 
 
-3. pwinput
+### 3. pwinput
 
 Digunakan untuk menyembunyikan password ketika pengguna melakukan login.
 
