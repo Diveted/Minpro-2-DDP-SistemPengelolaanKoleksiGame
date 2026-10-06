@@ -239,6 +239,10 @@ Contoh output:
 <img width="451" height="257" alt="image" src="https://github.com/user-attachments/assets/838966c3-71af-41eb-8c10-b8e8d080f2e4" />
 
 
+Jika pilihan menu tidak tersedia maka:
+
+<img width="398" height="302" alt="Screenshot 2026-10-06 191149" src="https://github.com/user-attachments/assets/c26dd9c6-3cc1-469f-af65-4235c2ed8a6d" />
+
 
 ---
 
@@ -262,6 +266,10 @@ Contoh:
 
 <img width="387" height="846" alt="image" src="https://github.com/user-attachments/assets/e21c1dc3-718f-43b1-9744-cef0de9f150e" />
 
+Jika data game tidak tersedia maka:
+
+<img width="280" height="112" alt="image" src="https://github.com/user-attachments/assets/6a29b0aa-5f37-4b2e-b5ad-7f3610b041a2" />
+
 
 
 ---
@@ -274,10 +282,17 @@ Contoh:
 
 <img width="467" height="612" alt="image" src="https://github.com/user-attachments/assets/ad10c25d-a0b5-43ad-8ec7-a5568bc76368" />
 
+Jika nomor yang dimasukkan bukan angka, program akan menampilkan pesan kesalahan tanpa menghentikan program.
+
+<img width="405" height="191" alt="Screenshot 2026-10-06 192347" src="https://github.com/user-attachments/assets/a279aeac-e0b5-4432-b9f4-83ee3377286d" />
+
 
 Setelah itu admin dapat memasukkan data baru.
 
-Jika nomor yang dimasukkan bukan angka, program akan menampilkan pesan kesalahan tanpa menghentikan program.
+Jika data game tidak tersedia maka:
+
+<img width="417" height="132" alt="Screenshot 2026-10-06 192041" src="https://github.com/user-attachments/assets/3f91cfe7-75f9-4620-b0f0-a0c2f9b20b67" />
+
 
 
 ---
@@ -292,6 +307,10 @@ Contoh:
 
 <img width="440" height="317" alt="image" src="https://github.com/user-attachments/assets/3cbc5a90-969c-4e6d-9447-4328fc386980" />
 
+Jika data game tidak tersedia maka:
+
+<img width="402" height="120" alt="image" src="https://github.com/user-attachments/assets/97351f6c-5e23-49d2-824f-2345ff67d020" />
+
 
 
 ---
@@ -304,10 +323,14 @@ Contoh:
 
 <img width="515" height="191" alt="image" src="https://github.com/user-attachments/assets/6de61128-42ff-4804-985a-47e3c62ef502" />
 
-
 Jika data tidak ditemukan:
 
-Game tidak ditemukan.
+<img width="541" height="122" alt="image" src="https://github.com/user-attachments/assets/a46d00f3-6505-44f2-a526-21fa2510c2aa" />
+
+Jika data game tidak tersedia maka:
+
+<img width="420" height="120" alt="image" src="https://github.com/user-attachments/assets/1be84a49-ede4-4f1e-8b64-e730aff03ed1" />
+
 
 
 ---
