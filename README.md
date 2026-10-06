@@ -224,18 +224,8 @@ Setelah 3 kali kesalahan, program menjalankan countdown selama 10 detik.
 
 Contoh:
 
-Username atau password salah!
-Percobaan salah: 3 kali
+<img width="427" height="720" alt="image" src="https://github.com/user-attachments/assets/7e07f8a8-24ca-4709-a49e-c9f52a74d40d" />
 
-Terlalu banyak percobaan salah.
-Tunggu 10 detik sebelum mencoba lagi.
-
-Coba lagi dalam 10 detik...
-Coba lagi dalam 9 detik...
-...
-Coba lagi dalam 1 detik...
-
-Silakan login kembali.
 
 
 ---
@@ -346,16 +336,8 @@ Program menggunakan try-except untuk menangani kesalahan input angka pada proses
 
 Contoh penerapan:
 
-try:
-    nomor = int(input("Pilih nomor data yang ingin diubah: "))
+<img width="701" height="252" alt="Screenshot 2026-10-06 182149" src="https://github.com/user-attachments/assets/5447f42d-14cf-4959-8511-ed108fad6e91" />
 
-    if nomor >= 1 and nomor <= len(koleksi_game):
-        break
-    else:
-        print("Nomor data tidak tersedia!")
-
-except ValueError:
-    print("Masukkan nomor berupa angka!")
 
 Dengan adanya error handling, ketika pengguna memasukkan input yang bukan angka, program tidak langsung berhenti atau mengalami error.
 
@@ -374,32 +356,44 @@ Program menggunakan 3 library/module Python sesuai dengan kebutuhan program.
 
 Digunakan untuk membersihkan tampilan layar pada program.
 
-import os
+<img width="135" height="20" alt="Screenshot 2026-10-06 181604" src="https://github.com/user-attachments/assets/f3e985a1-5df8-4e83-846e-2d997a38d154" />
+
 
 Digunakan pada fungsi:
 
-def bersihkan_layar():
-    os.system("cls" if os.name == "nt" else "clear")
+<img width="542" height="65" alt="image" src="https://github.com/user-attachments/assets/f2494c1a-dee5-4938-9e3b-3d4f7913adf5" />
+
+
+
+Dan dipanggil dengan:
+
+<img width="230" height="32" alt="Screenshot 2026-10-06 184740" src="https://github.com/user-attachments/assets/229ae749-720b-423a-b384-623d35100517" />
+
 
 2. time
 
 Digunakan untuk memberikan jeda pada program dan menjalankan countdown ketika pengguna melakukan kesalahan login sebanyak 3 kali.
 
-import time
+<img width="150" height="27" alt="Screenshot 2026-10-06 181548" src="https://github.com/user-attachments/assets/3ccb4708-818c-4a85-832a-7e046e0f75c0" />
+
+
 
 Contoh penggunaannya:
 
-time.sleep(1)
+<img width="275" height="55" alt="Screenshot 2026-10-06 185036" src="https://github.com/user-attachments/assets/1f1d9b9e-f84c-4c97-aef7-b5455fc28f84" />
+
 
 3. pwinput
 
 Digunakan untuk menyembunyikan password ketika pengguna melakukan login.
 
-import pwinput
+<img width="170" height="32" alt="Screenshot 2026-10-06 181554" src="https://github.com/user-attachments/assets/58b1c972-dfbb-499e-8ba7-2819bb02862c" />
+
 
 Contoh penggunaannya:
 
-password = pwinput.pwinput("Password: ")
+<img width="533" height="40" alt="Screenshot 2026-10-06 185631" src="https://github.com/user-attachments/assets/4d791525-6a0b-4147-978c-2a929419e56e" />
+
 
 Library pwinput perlu di-install terlebih dahulu menggunakan:
 
