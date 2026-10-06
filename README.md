@@ -1,6 +1,8 @@
 # Minpro-2-DDP-SistemPengelolaanKoleksiGame
 
-# Minpro-2-DDP-SistemKoleksiGame
+# Nama : Fery Sugiantoro
+# NIM : 2609116039
+# Kelas : A
 
 ## 1. Deskripsi Singkat Program
 
@@ -32,7 +34,8 @@ Akun yang tersedia:
 
 ## Flowchart
 
-![Flowchart Sistem Koleksi Game](flowchart_minpro2.png)
+<img width="3020" height="3190" alt="Diagram Tanpa Judul drawio (2) drawio (1)" src="https://github.com/user-attachments/assets/aad83852-d600-4172-8e12-f5fddf7a024e" />
+
 
 Flowchart di atas merupakan pengembangan dari flowchart Mini Project 1 yang telah disesuaikan dengan alur program Mini Project 2.
 
@@ -192,11 +195,5 @@ Terdapat dua pilihan:
 
 Contoh output:
 
-```text
-==========================================
-   SISTEM KOLEKSI GAME FERY KUMAR
-==========================================
-1. Login
-2. Keluar
-==========================================
-Pilih menu (1-2):
+<img width="447" height="178" alt="Screenshot 2026-10-06 155343" src="https://github.com/user-attachments/assets/e430c795-92f0-48f7-8820-980b67cd04bc" />
+
