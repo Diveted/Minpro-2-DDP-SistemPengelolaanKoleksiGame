@@ -1,8 +1,8 @@
 # Minpro-2-DDP-SistemPengelolaanKoleksiGame
 
-# Nama : Fery Sugiantoro
-# NIM : 2609116039
-# Kelas : A
+Nama : Fery Sugiantoro
+NIM : 2609116039
+Kelas : A
 
 ## 1. Deskripsi Singkat Program
 
