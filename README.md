@@ -199,3 +199,211 @@ Contoh output:
 
 <img width="447" height="178" alt="Screenshot 2026-10-06 155343" src="https://github.com/user-attachments/assets/e430c795-92f0-48f7-8820-980b67cd04bc" />
 
+
+---
+
+B. Login Berhasil
+
+Pengguna memasukkan username dan password yang benar.
+
+Contoh:
+
+<img width="415" height="327" alt="Screenshot 2026-10-06 172309" src="https://github.com/user-attachments/assets/ba1e13d1-6e55-4f2b-8516-74f7cfbe54db" />
+
+
+Setelah login berhasil, pengguna diarahkan ke menu sesuai role.
+
+
+---
+
+C. Login Salah dan Countdown
+
+Jika username atau password salah, program menampilkan jumlah percobaan yang salah.
+
+Setelah 3 kali kesalahan, program menjalankan countdown selama 10 detik.
+
+Contoh:
+
+Username atau password salah!
+Percobaan salah: 3 kali
+
+Terlalu banyak percobaan salah.
+Tunggu 10 detik sebelum mencoba lagi.
+
+Coba lagi dalam 10 detik...
+Coba lagi dalam 9 detik...
+...
+Coba lagi dalam 1 detik...
+
+Silakan login kembali.
+
+
+---
+
+D. Menu Admin
+
+Admin memiliki akses penuh terhadap data game.
+
+Contoh output:
+
+<img width="451" height="257" alt="image" src="https://github.com/user-attachments/assets/838966c3-71af-41eb-8c10-b8e8d080f2e4" />
+
+
+
+---
+
+E. Menambahkan Data Game
+
+Admin dapat memasukkan data game baru.
+
+Contoh:
+
+<img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/af7a0213-a061-4ec4-ac50-9df3fe850795" />
+
+
+
+---
+
+F. Menampilkan Data Game
+
+Setelah data berhasil ditambahkan, data dapat ditampilkan melalui menu Tampilkan Data Game.
+
+Contoh:
+
+<img width="387" height="846" alt="image" src="https://github.com/user-attachments/assets/e21c1dc3-718f-43b1-9744-cef0de9f150e" />
+
+
+
+---
+
+G. Mengubah Data Game
+
+Admin dapat memilih data berdasarkan nomor data yang tersedia.
+
+Contoh:
+
+<img width="467" height="612" alt="image" src="https://github.com/user-attachments/assets/ad10c25d-a0b5-43ad-8ec7-a5568bc76368" />
+
+
+Setelah itu admin dapat memasukkan data baru.
+
+Jika nomor yang dimasukkan bukan angka, program akan menampilkan pesan kesalahan tanpa menghentikan program.
+
+
+---
+
+H. Menghapus Data Game
+
+Admin dapat memilih data yang ingin dihapus.
+
+Program akan meminta konfirmasi sebelum menghapus data.
+
+Contoh:
+
+<img width="440" height="317" alt="image" src="https://github.com/user-attachments/assets/3cbc5a90-969c-4e6d-9447-4328fc386980" />
+
+
+
+---
+
+I. Mencari Data Game
+
+Admin dan User dapat mencari game berdasarkan nama atau kata kunci.
+
+Contoh:
+
+<img width="515" height="191" alt="image" src="https://github.com/user-attachments/assets/6de61128-42ff-4804-985a-47e3c62ef502" />
+
+
+Jika data tidak ditemukan:
+
+Game tidak ditemukan.
+
+
+---
+
+J. Menu User
+
+User memiliki hak akses yang berbeda dengan Admin.
+
+Contoh:
+
+<img width="422" height="522" alt="image" src="https://github.com/user-attachments/assets/b40cdb35-cf2b-4da6-9a25-0b1eeede9f98" />
+
+
+User tidak memiliki akses untuk menambah, mengubah, atau menghapus data game.
+
+
+---
+
+4. Nilai Tambah
+
+Program ini menerapkan beberapa nilai tambah sesuai dengan ketentuan Mini Project 2.
+
+A. Error Handling
+
+Program menggunakan try-except untuk menangani kesalahan input angka pada proses pemilihan data.
+
+Contoh penerapan:
+
+try:
+    nomor = int(input("Pilih nomor data yang ingin diubah: "))
+
+    if nomor >= 1 and nomor <= len(koleksi_game):
+        break
+    else:
+        print("Nomor data tidak tersedia!")
+
+except ValueError:
+    print("Masukkan nomor berupa angka!")
+
+Dengan adanya error handling, ketika pengguna memasukkan input yang bukan angka, program tidak langsung berhenti atau mengalami error.
+
+Program akan menampilkan pesan kesalahan dan meminta input kembali.
+
+Error handling juga diterapkan pada proses penghapusan data.
+
+
+---
+
+B. Penggunaan 3 Library Python
+
+Program menggunakan 3 library/module Python sesuai dengan kebutuhan program.
+
+1. os
+
+Digunakan untuk membersihkan tampilan layar pada program.
+
+import os
+
+Digunakan pada fungsi:
+
+def bersihkan_layar():
+    os.system("cls" if os.name == "nt" else "clear")
+
+2. time
+
+Digunakan untuk memberikan jeda pada program dan menjalankan countdown ketika pengguna melakukan kesalahan login sebanyak 3 kali.
+
+import time
+
+Contoh penggunaannya:
+
+time.sleep(1)
+
+3. pwinput
+
+Digunakan untuk menyembunyikan password ketika pengguna melakukan login.
+
+import pwinput
+
+Contoh penggunaannya:
+
+password = pwinput.pwinput("Password: ")
+
+Library pwinput perlu di-install terlebih dahulu menggunakan:
+
+pip install pwinput
+
+
+---
